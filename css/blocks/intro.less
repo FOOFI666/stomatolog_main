@@ -1,0 +1,66 @@
+// main: ../style.less
+
+.intro {
+    opacity: 1;
+    height: 600px;
+    background: url(../images/intro.jpg) center no-repeat; -webkit-background-size: cover; background-size: cover;
+    
+    @media @mobile {
+        height: 200px;
+    }
+}
+
+.intro__inner {
+    display: flex;
+}
+
+.otstup {
+    margin-top: 5rem;
+    margin-left: auto;
+    display: flex;
+    
+    @media @notebook {
+        
+        
+    }
+}
+
+.order {
+    text-align: center;
+    padding: 0;
+    
+    @media @notebook {
+        
+    }
+}
+
+.text__order {
+    padding: 100px 50px;
+    background: #00bfff;
+    border: 8px solid @white;
+    border-radius: 100%;
+    color: @white;
+    
+    @media @mobile {
+        display: none;
+    }
+}
+
+.proc {
+    font-weight: 700;
+    font-size: 6rem;
+    
+    @media @mobile {
+        font-size: 2rem;
+    }
+    
+}
+
+.order__client {
+    font-size: 2rem;
+    font-weight: 700;
+    
+    @media @mobile{
+        font-size: 0.7rem;
+    }
+}
